@@ -13,7 +13,7 @@
         <Console name="ConsoleAppender" target="SYSTEM_OUT" follow="true">
             <PatternLayout charset="UTF-8" pattern="${LOG_PATTERN}"/>
         </Console>
-		<RollingFile name="FileAppender" fileName="../log/login-automatico-admin.log"
+		<RollingFile name="FileAppender" fileName="logs/login-automatico-admin.log"
 			filePattern="logs/login-automatico-admin-%d{yyyy-MM}-%i.log">
 			<PatternLayout>
 				<Pattern>${LOG_PATTERN}</Pattern>
